@@ -11,9 +11,21 @@
 
 #header {
   margin-bottom: 0;
+  padding-bottom: 1em;
   & > h1 {
     border-bottom: none;
   }
+  & > .details {
+      border-bottom: none;
+  }
+}
+
+#content {
+    padding-top: 1em;
+}
+
+#toc.toc2 {
+    border-right: none;
 }
 
 .literalblock,
